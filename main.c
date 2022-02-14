@@ -10,6 +10,6 @@ void main(const int argc, const char *argv[])
         if (!file_exists(filename))
             file_creator(filename);
         else
-            printf("\"%s\" file already exists.", filename);
+            printf("\"%s\" file already exists.\n", filename);
     }
 }
