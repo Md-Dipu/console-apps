@@ -1,4 +1,4 @@
-void file_creator(char *filename)
+void file_creator(const char *filename)
 {
     FILE *write_file;
     write_file = fopen(filename, "w");
