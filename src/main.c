@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-#include "file-creator.h"
-#include "file-exists.h"
+#include "services.h"
 
 int main(const int argc, const char *argv[])
 {

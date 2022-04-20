@@ -1,5 +1,5 @@
-#include "file-exists.h"
 #include <stdio.h>
+#include "services.h"
 
 int file_exists(const char *filename)
 {
@@ -12,4 +12,11 @@ int file_exists(const char *filename)
         return 1;
     }
     return 0;
+}
+
+void file_creator(const char *filename)
+{
+    FILE *write_file;
+    write_file = fopen(filename, "w");
+    fclose(write_file);
 }
