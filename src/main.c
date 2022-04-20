@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "./src/file_creator.c"
-#include "./src/file_exists.c"
 
-void main(const int argc, const char *argv[])
+#include "file-creator.h"
+#include "file-exists.h"
+
+int main(const int argc, const char *argv[])
 {
     for (int i = 1; i < argc; i++)
     {
@@ -11,5 +12,7 @@ void main(const int argc, const char *argv[])
             file_creator(filename);
         else
             printf("\"%s\" file already exists.\n", filename);
+
+        return 0;
     }
 }
