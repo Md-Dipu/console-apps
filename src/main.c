@@ -12,7 +12,6 @@ int main(const int argc, const char *argv[])
             file_creator(filename);
         else
             printf("\"%s\" file already exists.\n", filename);
-
-        return 0;
     }
+    return 0;
 }
