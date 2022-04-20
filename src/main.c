@@ -23,7 +23,7 @@ int main(const int argc, const char *argv[])
     for (int i = 1; i < argc; i++)
     {
         if (*(*(argv + i)) == '/' || *(*(argv + i)) == '-')
-            break;
+            continue;
 
         const char *filename = *(argv + i);
         if (!file_exists(filename))
