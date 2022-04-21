@@ -12,7 +12,7 @@ int check_arg(const char *arg_str)
     for (char *s = str; *s; s++)
         *s = toupper(*s);
 
-    if (strcmp(str, "H") == 0 || strcmp(str, "?") == 0)
+    if (strcmp(str, "HELP") == 0 || strcmp(str, "H") == 0 || strcmp(str, "?") == 0)
         get_help();
     return 0;
 }
@@ -20,7 +20,7 @@ int check_arg(const char *arg_str)
 void get_help(void)
 {
     printf("Creates one or more files.\n\n"
-           "TOUCH [/H] <filename>\n\n"
+           "TOUCH [-help | /H] <filename>\n\n"
            "  filename \tName of file/files to create.\n"
            "  /H \t\tGet user guide documentation.\n\n"
            "Use '/' or '-' sign to attach arguments.\n\n"
