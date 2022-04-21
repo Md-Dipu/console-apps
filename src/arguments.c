@@ -23,6 +23,7 @@ void get_help(void)
            "TOUCH [-help | /H] <filename>\n\n"
            "  filename \tName of file/files to create.\n"
            "  /H \t\tGet user guide documentation.\n\n"
-           "Use '/' or '-' sign to attach arguments.\n\n"
-           "And to create more than one file attach filename in <file1> <file2> <file3> ... <fileN> format.\n");
+           "Use '/' or '-' sign to attach arguments. And to create more \n"
+           "than one file attach filename using (<file1> <file2> <file3> \n"
+           "... <fileN>) format.\n");
 }
