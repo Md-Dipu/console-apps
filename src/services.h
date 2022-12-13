@@ -11,4 +11,10 @@ int file_exists(const char *filename);
  */
 void file_creator(const char *filename);
 
+/**
+ * This function show documentation.
+ * Use command-line argument -H or, /H to view help documentation.
+ */
+void get_help(void);
+
 #endif

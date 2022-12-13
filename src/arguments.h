@@ -7,10 +7,4 @@
  */
 int check_arg(const char *arg_str);
 
-/**
- * This function show documentation.
- * Use command-line argument -H or, /H to view help documentation.
- */
-void get_help(void);
-
 #endif
