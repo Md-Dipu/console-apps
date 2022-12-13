@@ -6,11 +6,9 @@ This is a command-line application. That creates one or more files but ignores e
 
 ### Command:
 
-```
-touch [-help | /h] <filename | filenames>
-```
+`touch [-help | /h] \<filename | filenames>`
 
 - filename: Name of file to create.
 - -help, /h: Display user guide documentation.
 
-To create more than one file attach filenames using <file1> <file2> <file3> ... <fileN> format.
+To create more than one file attach filenames using \<file1> \<file2> \<file3> ... \<fileN> format.
